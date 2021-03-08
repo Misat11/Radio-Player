@@ -1,0 +1,32 @@
+{
+  "name": "aqua-player",
+  "version": "1.0.0",
+  "description": "Aqua Desktop/Cross-Platform Player",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Aqua",
+    "itsaqua",
+    "music",
+    "player"
+  ],
+  "author": "JustGreg",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^12.0.0",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "cheerio": "^1.0.0-rc.5",
+    "discord-rich-presence": "0.0.8",
+    "jquery": "^3.6.0",
+    "path": "^0.12.7",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1"
+  }
+}

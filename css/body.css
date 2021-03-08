@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+#main {
+    background-image: linear-gradient(to right, #38749c, #0099ff);
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+}
+
+.radioBlock {
+    padding: 15px 15px;
+    width: 200px;
+    height: 85px;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 0.8rem;
+    color: white;
+    border: 2px solid #4187ca;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+    line-height: 10px;
+    background-size: cover;
+}
+
+
+
+.radioBlockImg {
+    width: 196px;
+    height: 81px;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -20px;
+    filter: blur(5px) brightness(0.7);
+    object-fit: cover;
+}
+
+.radioBlockButton {
+    background-color: rgba(45, 45, 45, 0.38);
+    border: 1px solid #80808000;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    font-family: 'Whitney Semibold Regular', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.radioBlockText {
+    color: white;
+    font-weight: bold;
+}
+
+.radioBlockText:hover {
+    color: white;
+}
+
+.drag {
+    -webkit-app-region: drag;
+}
+
+.nodrag {
+    -webkit-app-region: no-drag;
+}
+
+.min:hover {
+    background-color: #24282c;
+}
+
+.exit:hover {
+    background-color: red;
+}
+
+.back:hover {
+    image-resolution: 200px;
+}

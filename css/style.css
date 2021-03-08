@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.aqua {
+    background-image: linear-gradient(to right, #38749c, #0099ff);
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+}
+
+.slam {
+    background-image: linear-gradient(to right, #31b4e8, #e50069);
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+}
+
+.sr {
+    background-image: linear-gradient(to right, #f84067, #f0822e);
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;  
+}
+
+.tfm {
+    background-image: linear-gradient(to right, #cc2781, #b5b5b5);
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;  
+}
+
+.caz {
+    background-image: linear-gradient(to right, #ec1c51, #ffffff);
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;  
+}
